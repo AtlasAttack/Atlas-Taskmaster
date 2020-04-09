@@ -16,7 +16,7 @@ Taskmaster works by defining "services" for the programs you need to manage. Fro
  
  5. (Optional) If you'd like to manage multiple services, you'll need to add additional <string> tags to the sections outlined in steps 2-4. You can add as many services as you'd like.
  
- 6. (Optional) You can update "ServiceUpdateRateSeconds" to change how often the application checks if a service has stopped. By default, this interval is every 10 seconds.
+ 6. (Optional) You can update **"ServiceUpdateRateSeconds"** to change how often the application checks if a service has stopped. By default, this interval is every 10 seconds.
 
 ## Commands
 

@@ -19,8 +19,12 @@ namespace AtlasTaskmaster
 		/// <param name="args"></param>
 		static void Main( string[] args ) {
 			Console.Title = "Atlas Taskmaster";
-			InitializeServices();
 			bool isConfigured = Taskmaster.Default.ServicePaths[0] != "path1";
+			if ( isConfigured ) {
+				InitializeServices();
+			}
+			
+			
 			bool continueAfterFailedConfig = false;
 			int argCount = args.Length;
 			Console.WriteLine( $"[STARTUP] - Taskmaster started. Got runtime arg count: {argCount}" );

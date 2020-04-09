@@ -1,6 +1,0 @@
-E:\__VisualStudio\AtlasTaskmaster\AtlasTaskmaster\AtlasTaskmaster\bin\Debug\AtlasTaskmaster.exe.config
-E:\__VisualStudio\AtlasTaskmaster\AtlasTaskmaster\AtlasTaskmaster\bin\Debug\AtlasTaskmaster.exe
-E:\__VisualStudio\AtlasTaskmaster\AtlasTaskmaster\AtlasTaskmaster\bin\Debug\AtlasTaskmaster.pdb
-E:\__VisualStudio\AtlasTaskmaster\AtlasTaskmaster\AtlasTaskmaster\obj\Debug\AtlasTaskmaster.csprojResolveAssemblyReference.cache
-E:\__VisualStudio\AtlasTaskmaster\AtlasTaskmaster\AtlasTaskmaster\obj\Debug\AtlasTaskmaster.exe
-E:\__VisualStudio\AtlasTaskmaster\AtlasTaskmaster\AtlasTaskmaster\obj\Debug\AtlasTaskmaster.pdb

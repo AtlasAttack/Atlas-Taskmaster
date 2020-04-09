@@ -2,7 +2,7 @@
  
  Taskmaster is a simple tool designed to quickly manage processes and applications in the background. Taskmaster can automatically restart programs that terminate unexpectedly, or be configured with existing code to automate starting, restarting, or stopping running programs.
 
-Taskmaster works by defining "services" for the programs you need to manage. From there, you can configure Taskmaster to always keep certain applications open (and restart them if they crash) or manually 
+Taskmaster works by defining "services" for the programs you need to manage. From there, you can configure Taskmaster to always keep certain applications open (and restart them if they crash) or manually via console commands and launch arguments.
 
 ## Setup
 
@@ -21,6 +21,7 @@ Taskmaster works by defining "services" for the programs you need to manage. Fro
 ## Commands
 
 Currently, taskmaster offers 3 commands:
+
 **START** : Starts one of the configured services : *Usage: start 0 (Starts the first service configured in the "ServicePaths" setting in the config.*
 
 **KILL** : Ends one of the configured services by killing the process, if it is running. : *Usage: kill 0*.

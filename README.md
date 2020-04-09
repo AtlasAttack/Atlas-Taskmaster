@@ -12,6 +12,8 @@ Taskmaster works by defining "services" for the programs you need to manage. Fro
 
 3. Under **"ServiceWindowNames"**, change **"applicationName1"** to a name that would appear in the main window of the application when it's run. *(If the application's window's name is "League of Legends", the name "League" would work).* If you're not sure what the window name of an application is, open Task Manager and locate your process in the list, then use that name.
 
+*If the process you want to manage does not have an application window, or you can't find the window's name, you can use the process name instead. Be careful doing this however, as some processes can share names and this may lead to Taskmaster linking to the wrong process.*
+
 4. (Optional) Under **"ServiceKeepRunning"**, if you'd like Taskmaster to restart the application in the event it closes, make sure the value in between the <string> tags is **true**. Otherwise set this to false.
  
  5. (Optional) If you'd like to manage multiple services, you'll need to add additional <string> tags to the sections outlined in steps 2-4. You can add as many services as you'd like.

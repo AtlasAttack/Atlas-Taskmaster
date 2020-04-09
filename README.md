@@ -8,11 +8,11 @@ Taskmaster works by defining "services" for the programs you need to manage. Fro
 
 1. Download the [latest release here](https://github.com/AtlasAttack/Atlas-Taskmaster/releases).
 
-2. Open the "AtlasTaskmaster.exe" config file. Under "ServicePaths", change the "path1" text to the file path of the exe you want to manage. *(Example: If your file is located on your desktop, the file path would be Desktop\MyFile.exe).*
+2. Open the AtlasTaskmaster.exe config file. Under **"ServicePaths"**, change the **"path1"** text to the file path of the exe you want to manage. *(Example: If your file is located on your desktop, the file path would be Desktop\MyFile.exe).*
 
-3. Under "ServiceWindowNames", change "applicationName1" to a name that would appear in the main window of the application when run. *(If the application's window's name is "League of Legends", the name "League" would work).* If you're not sure what the window name of an application is, open Task Manager and locate your process in the list, then use that name.
+3. Under **"ServiceWindowNames"**, change **"applicationName1"** to a name that would appear in the main window of the application when it's run. *(If the application's window's name is "League of Legends", the name "League" would work).* If you're not sure what the window name of an application is, open Task Manager and locate your process in the list, then use that name.
 
-4. (Optional) Under "ServiceKeepRunning", if you'd like Taskmaster to restart the application in the event it closes, make sure the value in between the <string> tags is **true**. Otherwise set this to false.
+4. (Optional) Under **"ServiceKeepRunning"**, if you'd like Taskmaster to restart the application in the event it closes, make sure the value in between the <string> tags is **true**. Otherwise set this to false.
  
  5. (Optional) If you'd like to manage multiple services, you'll need to add additional <string> tags to the sections outlined in steps 2-4. You can add as many services as you'd like.
  

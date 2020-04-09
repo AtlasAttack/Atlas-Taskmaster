@@ -1,6 +1,6 @@
 # Atlas Taskmaster
  
- Taskmaster is a simple tool designed to quickly manage processes and applications in the background. Taskmaster can automatically restart programs that terminate unexpectedly, or be configured with existing code to automate starting, restarting, or stopping running programs.
+ Taskmaster is a simple tool, written in C#, designed to quickly manage processes and applications in the background. Taskmaster can automatically restart programs that terminate unexpectedly, or be configured with existing code to automate starting, restarting, or stopping running programs.
 
 Taskmaster works by defining "services" for the programs you need to manage. From there, you can configure Taskmaster to always keep certain applications open (and restart them if they crash) or manually via console commands and launch arguments.
 

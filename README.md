@@ -28,4 +28,6 @@ Currently, taskmaster offers 3 commands:
 
 **RESTART** : Restarts one of the configured services by killing the process and restarting it. : *Usage restart 0*.
 
+**Each command needs the index of the service you are referring to as a parameter, starting at 0.**
+
 These commands can also be called using runtime arguments to the application. This is useful if you intend to use Taskmaster with other applications.

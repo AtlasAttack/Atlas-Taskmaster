@@ -169,14 +169,20 @@ namespace AtlasTaskmaster
 				} else if ( args[0].ToUpper() == "KILL" || args[0].ToUpper() == "STOP" ) {
 					KillService( targetServiceID );
 				}
+				QuitAfter( 10 );
 			}
 
+		}
+
+		static async void QuitAfter(int seconds) {
+			await Task.Delay( seconds * 1000 );
+			System.Environment.Exit( 0 );
 		}
 
 		static Process GetProcessByWindowName( string windowName ) {
 			Process[] processes = Process.GetProcesses();
 			foreach ( Process p in processes ) {
-				if ( p.MainWindowTitle.Contains( windowName ) && p.HasExited == false ) {
+				if ( (p.MainWindowTitle.ToUpper().Contains( windowName.ToUpper() ) || p.ProcessName.ToUpper().Contains(windowName.ToUpper() )) && p.HasExited == false ) {
 					return p;
 				}
 			}
